@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
@@ -20,19 +19,16 @@
 ##############################################################################
 {
     "name": "Environmental Aspects",
-    "version": "10.0.1.1.0",
+    "version": "13.0.1.1.0",
     "author": "Savoir-faire Linux, Odoo Community Association (OCA)",
     "website": "http://www.savoirfairelinux.com",
     "license": "AGPL-3",
     "category": "Generic Modules/Others",
-    "depends": [
-        'document_page_approval',
-        'mgmtsystem',
-    ],
+    "depends": ["mgmtsystem"],
     "data": [
-        'data/document_page.xml',
-        'views/document_page.xml',
-        'security/environmental_aspect_security.xml',
+        "data/document_page.xml",
+        "views/document_page.xml",
+        "security/environmental_aspect_security.xml",
     ],
-    'installable': True,
+    "installable": True,
 }
