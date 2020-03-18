@@ -24,7 +24,7 @@
     "website": "http://www.savoirfairelinux.com",
     "license": "AGPL-3",
     "category": "Generic Modules/Others",
-    "depends": ["mgmtsystem"],
+    "depends": ["document_page", "mgmtsystem"],
     "data": [
         "data/document_page.xml",
         "views/document_page.xml",
